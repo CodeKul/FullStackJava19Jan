@@ -11,15 +11,15 @@ public class DataTypes {
     String s = "Akshay";
     Integer q = 0;
     Double d = 1.0;
-    Character c ='d';
+    Character c = 'd';
 
-    static void getInfo(){
+    private void getInfo() {
         System.out.println("hii");
     }
 
-     static public void main(String...args) {
-
-        DataTypes.getInfo();
+    static public void main(String... args) {
+            DataTypes d1 = new DataTypes();
+            d1.getInfo();
     }
 
 }
