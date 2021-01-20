@@ -1,0 +1,10 @@
+Constructor - Constructor is special type of method and it call when the object of class is created.
+
+Types of Constructor-
+    1.Default constructor
+    2.Parameterized constructor
+
+Rules of creating constructor-
+                        1. Class name and constructor name should be same.
+                        2. we can not declare return type explicitly.
+                        3. we can not declare constructor abstract,static or synchronized

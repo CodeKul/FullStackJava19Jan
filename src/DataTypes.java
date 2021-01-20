@@ -19,7 +19,8 @@ public class DataTypes {
 
     static public void main(String... args) {
             DataTypes d1 = new DataTypes();
-            d1.getInfo();
+
+        d1.getInfo();
     }
 
 }
