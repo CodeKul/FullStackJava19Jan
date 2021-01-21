@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class DataTypes {
 
     //primitive datatypes
@@ -9,6 +12,7 @@ public class DataTypes {
     //non primitive datatypes
 
     String s = "Akshay";
+    String s1 = "K";
     Integer q = 0;
     Double d = 1.0;
     Character c = 'd';
@@ -18,8 +22,7 @@ public class DataTypes {
     }
 
     static public void main(String... args) {
-            DataTypes d1 = new DataTypes();
-
+        DataTypes d1 = new DataTypes();
         d1.getInfo();
     }
 
