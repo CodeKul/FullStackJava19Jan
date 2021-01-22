@@ -28,3 +28,9 @@ Polymorphism -
                                      It increases program readability.
             rule for method overloading - 1. same name but different number of parameters
                                           2. same number of parameter but different datatype.
+
+            2. Method Overriding - If child class have same method name in that parent class then is called method overriding.
+
+
+Local Variable => if we declare variable within method this is called Local Variable. They are accessible within a method
+Instance Variable -> Instance Variable are declared at class level
