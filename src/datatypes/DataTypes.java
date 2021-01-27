@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+package datatypes;
 
 public class DataTypes {
 
@@ -8,11 +7,14 @@ public class DataTypes {
     char j = 'c';
     boolean b = false;
     float f = 1.0f;
+    long w = 10;
+    byte s= 's';
+
 
     //non primitive datatypes
 
-    String s = "Akshay";
-    String s1 = "K";
+    String s1 = "Akshay";
+    String s11 = "K";
     Integer q = 0;
     Double d = 1.0;
     Character c = 'd';
@@ -24,6 +26,7 @@ public class DataTypes {
     static public void main(String... args) {
         DataTypes d1 = new DataTypes();
         d1.getInfo();
+
     }
 
 }
