@@ -1,4 +1,4 @@
-package interf;
+package interface_demo;
 
 class SBI implements Bankinterface,BankRule{
 
