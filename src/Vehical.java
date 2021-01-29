@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public abstract class Vehical {
     public abstract void start();
     public void color(){
@@ -14,15 +16,6 @@ class BMW extends Vehical{
     }
 
     public static void main(String[] args) {
-        BMW car = new BMW();
-        car.start();
-    }
-}
-
-class AUDI extends Vehical{
-
-    @Override
-    public void start() {
 
     }
 }

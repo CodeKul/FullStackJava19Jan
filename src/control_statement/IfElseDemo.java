@@ -4,8 +4,8 @@ public class IfElseDemo {
     public static void main(String[] args) {
        int a,b,c,d;
        a =10211;
-       b=1921;
-       c=221;
+       b=192111;
+       c=2211111;
        d=0;
     //multiple if conditions
        if(a>b && a>c && a>d){
