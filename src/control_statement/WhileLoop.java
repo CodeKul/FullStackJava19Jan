@@ -12,7 +12,7 @@ public class WhileLoop {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Guess The number");
-        number = (int)(Math.random()*1000+1);
+        number = (int)(Math.random()*100+1);
 
         do {
             System.out.println("Enter the number");
