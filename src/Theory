@@ -34,3 +34,32 @@ Polymorphism -
 
 Local Variable => if we declare variable within method this is called Local Variable. They are accessible within a method
 Instance Variable -> Instance Variable are declared at class level
+
+
+Throwable ->
+           1. Exception-
+                        1.IOException
+                        2.SQLException
+                        3.ClassNotFoundExecption
+                        3.RuntimeException
+                                    - ArithmaticException
+                                    - NullpointerException
+                                    - NumberFormatException
+                                    - IndexOutOfBoundException -
+                                                           - ArrayIndexOutOfBoundException
+                                                           - StringIndexOutOfBoundException
+
+           2. Error-
+                    1.StackOverFlowError
+                    2.OutOfMemoryError
+
+**** There are two types Exception
+            1. Checked Exception-
+                    except RuntimeException all exception are come
+            2. Unchecked Exception -
+                    All Run time exception are unchecked exceptions
+
+                     Throw                                      Throws
+ 1. Throw is used for throw exception explicitly.           1. Throws is used to declare exception
+ 2. Throw is used within method                             2. Throws is used with method signature
+ 3. we can not declare multiple exception                   3. we can declare multiple exceptions using Throws.
