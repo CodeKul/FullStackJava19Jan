@@ -1,0 +1,1 @@
+5) Write a program to display maximum among three numbers(use scanner class)
