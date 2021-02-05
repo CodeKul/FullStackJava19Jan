@@ -63,3 +63,8 @@ Throwable ->
  1. Throw is used for throw exception explicitly.           1. Throws is used to declare exception
  2. Throw is used within method                             2. Throws is used with method signature
  3. we can not declare multiple exception                   3. we can declare multiple exceptions using Throws.
+
+
+File Handling -
+
+

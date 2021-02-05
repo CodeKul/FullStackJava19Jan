@@ -23,13 +23,12 @@ public class Inheritance {
 class Addition{
     int a,b,c;
 
-
     public void add(){
         c= a+b;
     }
 }
 
-//sub class , child class, deriveed class
+//sub class , child class, derived class
 class Substraction extends  Addition{
 
     public void sub(){
