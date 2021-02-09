@@ -1,6 +1,6 @@
 package multithreading;
 
-public class RunnableDemo extends Sample implements Runnable {
+public class RunnableDemo  implements Runnable {
 
     @Override
     public void run() {
