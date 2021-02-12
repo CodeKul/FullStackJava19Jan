@@ -69,5 +69,3 @@ File Handling -
 
 fileInputStream - byte by byte reads
 fileReader - character by character reads
-
-

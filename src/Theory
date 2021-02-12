@@ -71,3 +71,13 @@ fileInputStream - byte by byte reads
 fileReader - character by character reads
 
 
+                                        Iterable(I)
+
+                                        Collection(I)
+
+  List(I)                                 Queue(I)                         Set(I)
+
+  - ArrayList                            PriorityQueue(I)               -HashSet(C)
+  - LinkedList                           Deque(C)                       -LinkedHashSet(C)
+  - Vector                                                              - TreeSet(C)
+                                                                        - SortedSet(I)
