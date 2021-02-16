@@ -40,10 +40,10 @@ Throwable ->
            1. Exception-
                         1.IOException
                         2.SQLException
-                        3.ClassNotFoundExecption
+                        3.ClassNotFoundException
                         3.RuntimeException
-                                    - ArithmaticException
-                                    - NullpointerException
+                                    - ArithmeticException
+                                    - NullPointerException
                                     - NumberFormatException
                                     - IndexOutOfBoundException -
                                                            - ArrayIndexOutOfBoundException

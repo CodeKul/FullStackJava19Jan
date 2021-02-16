@@ -30,7 +30,7 @@ public class TryCatchDemo {
         }
 
 
-        List<String> list = new ArrayList<>();
+//        List<String> list = new ArrayList<>();
 
     }
 }
