@@ -8,7 +8,7 @@ public class CustomException {
         int i=1;
         try {
             if(i>0){
-                throw new Exception("i is greater than 0");
+                throw new MyException("i is greater than 0");
             }
         }catch (Exception e){
             System.out.println(e);
@@ -19,7 +19,7 @@ public class CustomException {
 class MyException extends Exception{
 
     public MyException(String str){
-        super(str);
+        super("");
     }
 
 }
