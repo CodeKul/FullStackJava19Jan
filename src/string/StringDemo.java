@@ -5,6 +5,7 @@ package string;
 public class StringDemo {
 
     public static void main(String[] args) {
+
         char[] arr = {'c','o','d','e'};
         String s = new String(arr);
         System.out.println(s);
