@@ -38,7 +38,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/jdbc/InsertDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/jdbc/JdbcDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/jdbc/PreparedStatDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/multithreading/RunnableDe.java">
           <value>
             <set />
           </value>

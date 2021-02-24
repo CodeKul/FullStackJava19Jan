@@ -2,8 +2,8 @@ package jdbc;
 
 import java.sql.*;
 
-public class JdbcDemo {
-
+public class InsertDemo {
+    //
     public static void main(String[] args) {
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -11,21 +11,20 @@ public class JdbcDemo {
                     DriverManager.getConnection("jdbc:mysql://localhost:3306/java19jan?characterEncoding=latin1", "root", "password");
             Statement statement = connection.createStatement();
 
+            String insert = "Insert into employee(id,name,address) values(2,'Sachin','Nashik')";
+            String update = "update employee set name ='rahul' where id=2";
+            String delete = "delete from employee where id=2";
 
-            ResultSet rs = statement.executeQuery("select * from employee");
+            int i = statement.executeUpdate(delete);
 
-//            executeQuery -> it is use for select statement
-            while (rs.next()) {
-                System.out.println(rs.getInt(1));
-                System.out.println(rs.getString(2));
-                System.out.println(rs.getString(3));
-            }
+//            executeUpdate -> it is used for insert update delete
+
+            System.out.println("row inserted=>"+i);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
 
     }
 }
