@@ -81,3 +81,13 @@ fileReader - character by character reads
   - LinkedList                           Deque(C)                       -LinkedHashSet(C)
   - Vector                                                              - TreeSet(C)
                                                                         - SortedSet(I)
+
+
+
+  Java 8 ->
+  1) Lambada expression
+  2) Method references
+  3) Stream Api
+  4) default and static method in interface
+  5) changes Date and datetime
+

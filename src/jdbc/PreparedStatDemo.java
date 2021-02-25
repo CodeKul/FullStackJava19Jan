@@ -22,7 +22,7 @@ public class PreparedStatDemo {
             Class.forName("com.mysql.jdbc.Driver");
             Connection connection =
                     DriverManager.getConnection("jdbc:mysql://localhost:3306/java19jan?characterEncoding=latin1", "root", "password");
-            PreparedStatement statement = connection.prepareStatement(insert);
+            PreparedStatement statement = connection.prepareCall(insert);
 
             statement.setInt(1,id);
             statement.setString(2,name);

@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/Theory">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/collection/ListOfMap.java">
           <value>
             <set />
@@ -34,6 +39,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/final_keyword/FinalDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/java8/LambadaExpressDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/java8/LambadaExpressionDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/java8/LambdaExpression.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/java8/MarkerInterfaceDemo.java">
           <value>
             <set />
           </value>
