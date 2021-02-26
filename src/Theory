@@ -77,8 +77,8 @@ fileReader - character by character reads
 
   List(I)                                 Queue(I)                         Set(I)
 
-  - ArrayList                            PriorityQueue(I)               -HashSet(C)
-  - LinkedList                           Deque(C)                       -LinkedHashSet(C)
+  - ArrayList                            PriorityQueue(c)               -HashSet(C)
+  - LinkedList                           Deque(i)                       -LinkedHashSet(C)
   - Vector                                                              - TreeSet(C)
                                                                         - SortedSet(I)
 

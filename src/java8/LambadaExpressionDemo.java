@@ -10,6 +10,7 @@ interface MyInterface {
     String show();
 }
 
+@FunctionalInterface
 interface MyInterface1 {
 
     int add(int i, int j);
@@ -20,14 +21,12 @@ public class LambadaExpressionDemo {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(123, 1323, 23, 32);
 
-
-        Consumer consumer = new Consumer() {
-            @Override
-            public void accept(Object o) {
-                System.out.println(o);
-            }
+        Consumer<Integer> consumer = (Integer integer)-> {
+                System.out.println(integer*2);
         };
-        list.forEach(consumer);
+        list.forEach(s->{
+            System.out.println(s*2);
+        });
 
 
         MyInterface myInterface = () -> {
@@ -36,7 +35,7 @@ public class LambadaExpressionDemo {
 
         System.out.println(myInterface.show());
 
-        MyInterface1 myInterface1 = (i, j) -> {
+        MyInterface1 myInterface1 = ( i,  j) -> {
             return i + j;
         };
 
