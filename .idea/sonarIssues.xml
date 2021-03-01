@@ -33,6 +33,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/collection/MyInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/collection/SetDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/collection/Sync.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/final_keyword/FInalDemo.java">
           <value>
             <set />
@@ -69,6 +84,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/java8/MarkerInterfaceDemo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/java8/MethodReferences.java">
           <value>
             <set />
           </value>
