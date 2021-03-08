@@ -20,7 +20,7 @@ public class MethodReferences {
         BiFunction<Integer,Integer,Integer> addition = MyInterface4::add;
 
         int i = addition.apply(3,5);
-        System.out.println();
+        System.out.println(i);
     }
 
     private String display(){
