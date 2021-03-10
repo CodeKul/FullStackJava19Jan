@@ -16,12 +16,36 @@ public class ComparatorDemo {
         this.name = name;
         this.add = add;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAdd() {
+        return add;
+    }
+
+    public void setAdd(String add) {
+        this.add = add;
+    }
 }
 
 class MainComparetorDemo {
     public static void main(String[] args) {
         ComparatorDemo e = new ComparatorDemo(5, "aSahil", "Pune");
-        ComparatorDemo e2 = new ComparatorDemo(4, "bSachin", "Pune Kothrud");
+        ComparatorDemo e2 = new ComparatorDemo(1, "bSachin", "Pune Kothrud");
         ComparatorDemo e3 = new ComparatorDemo(1, "cSachin tendulkar", "Pune");
 
         List<ComparatorDemo> list = new ArrayList<>();
@@ -29,18 +53,20 @@ class MainComparetorDemo {
         list.add(e2);
         list.add(e3);
 
-        Comparator<ComparatorDemo> comparator = new Comparator<ComparatorDemo>() {
-            @Override
-            public int compare(ComparatorDemo comparatorDemo, ComparatorDemo t1) {
+        Comparator<ComparatorDemo> comparator = (comparatorDemo,t1)-> {
                 if (comparatorDemo.id > t1.id) {
                     return 1;
                 } else {
                     return -1;
                 }
-            }
+
         };
 
-        Collections.sort(list,comparator);
+        Comparator<ComparatorDemo> comparator1 = (Comparator.comparing(ComparatorDemo::getId))
+                .thenComparing(ComparatorDemo::getAdd)
+                .thenComparing(ComparatorDemo::getName);
+
+        Collections.sort(list,comparator1);
         list.forEach(s -> {
             System.out.println(s.add + " " + s.name);
         });
